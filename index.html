@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>家計簿アプリ</title>
+</head>
+<body>
+   <h1>家計簿アプリ</h1>
+   <form id="inputform">
+    <p>日付：<input type="date" id="date" required></p>
+    <p>金額：<input type="number" id="amount" required></p>
+    <select  id="category">
+        <option >食費</option>
+        <option >娯楽</option>
+        <option >交通費</option>
+        <option >ポチロー</option>
+        <option >ミント</option>
+        <option >その他</option>
+    </select>
+    <p>メモ：<input type="text"id="memo"></p>
+    <button type="submit">追加</button>
+   </form>
+
+   <table>
+    <thead>
+        <tr>
+            <th>日付</th>
+            <th>金額</th>
+            <th>カテゴリ</th>
+            <th>メモ</th>
+        </tr>
+    </thead>
+    <tbody id="recordlist"></tbody>
+   </table>
+   
+   <script src="script.js"></script>
+</body>
+</html>
