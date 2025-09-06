@@ -1,0 +1,30 @@
+@charset "utf-8";
+body{
+    font-family: sans-serif; margin:20px ;
+    background:linear-gradient(-255deg,#2cd8d5 0%,#c5c1ff 56%,#ffbac3 100%);
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+input,select{
+    margin: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+th,td{
+    border: 1px solid;
+    text-align: center;
+    padding:1px;
+
+}
+th{
+    background-color: #f0f0f0;
+}
